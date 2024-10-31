@@ -1,0 +1,14 @@
+{
+	"name": "portfolio-gallery/slideshowgallery",
+	"title": "PORTGAL-SLIDE",
+	"category": "common",
+	"icon": "format-gallery",
+	"description": "A slideshow block",
+	"textdomain": "portfolio-gallery",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./block/index.js",
+	"editorStyle": "file:./block/index.css",
+	"style": "file:./block/style-index.css"
+}

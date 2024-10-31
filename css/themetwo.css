@@ -1,0 +1,125 @@
+
+.themetwo{background-color:#fff;padding:20px;}
+.gallery_content ul.themetwo li{height:250px; overflow:hidden; max-width:330px;list-style-type:none; display:inline-block;}
+.gallery_content ul.themetwo {
+	    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+  list-style-type: none;
+}
+.themeone .slideshow_slide_text{height:100vh; padding:10px;}
+.gallery_container_style-dark { background: #000; }
+
+.gallery_container_style-dark a { text-decoration: none; }
+.gallery_container_style-dark a:hover { text-decoration: none; }
+
+.gallery_container_style-dark .gallery_slide { margin-right: 2px; }
+.gallery_container_style-dark .gallery_slide_image { }
+.gallery_container_style-dark .gallery_slide_video { }
+
+.gallery_container_style-dark .gallery_slide_text div.gallery_title { font-size: 1.3em; }
+.gallery_container_style-dark .gallery_slide_text div.gallery_description { }
+
+.gallery_container_style-dark .gallery_slide_text div,
+.gallery_container_style-dark .gallery_slide_text p,
+.gallery_container_style-dark .gallery_slide_text h1,
+.gallery_container_style-dark .gallery_slide_text h2,
+.gallery_container_style-dark .gallery_slide_text h3,
+.gallery_container_style-dark .gallery_slide_text h4,
+.gallery_container_style-dark .gallery_slide_text h5,
+.gallery_container_style-dark .gallery_slide_text h6 {
+	text-align: center;
+}
+
+.gallery_container_style-dark .gallery_description_box { background: #000; width: 100%; }
+
+.gallery_container_style-dark .gallery_description_box div.gallery_title { font-size: 1.3em; }
+.gallery_container_style-dark .gallery_description_box div.gallery_description { }
+
+.gallery_container_style-dark .gallery_description_box div,
+.gallery_container_style-dark .gallery_description_box div a,
+.gallery_container_style-dark .gallery_description_box p,
+.gallery_container_style-dark .gallery_description_box p a,
+.gallery_container_style-dark .gallery_description_box h1,
+.gallery_container_style-dark .gallery_description_box h1 a,
+.gallery_container_style-dark .gallery_description_box h2,
+.gallery_container_style-dark .gallery_description_box h2 a,
+.gallery_container_style-dark .gallery_description_box h3,
+.gallery_container_style-dark .gallery_description_box h3 a,
+.gallery_container_style-dark .gallery_description_box h4,
+.gallery_container_style-dark .gallery_description_box h4 a,
+.gallery_container_style-dark .gallery_description_box h5,
+.gallery_container_style-dark .gallery_description_box h5 a,
+.gallery_container_style-dark .gallery_description_box h6,
+.gallery_container_style-dark .gallery_description_box h6 a {
+	text-align: center;
+	color: #fff;
+}
+
+.gallery_container_style-dark .gallery_transparent { filter: alpha(opacity = 50); opacity: 0.5; }
+.gallery_container_style-dark .gallery_transparent:hover { filter: alpha(opacity = 80); opacity: 0.8; }
+
+.gallery_container_style-dark .gallery_loading_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 32px;
+	height: 32px;
+	margin: -16px 0 0 -16px;
+	background: url('../images/SlideshowPlugin/loading-icon-128x128.gif') no-repeat;
+	background-size: 32px 32px;
+}
+
+.gallery_container_style-dark .gallery_controlPanel {
+	width: 20px;
+	height: 20px;
+	margin-left: -10px;
+}
+
+.gallery_container_style-dark .gallery_controlPanel ul { }
+
+.gallery_container_style-dark .gallery_controlPanel ul li {
+	width: 20px;
+	height: 20px;
+}
+
+.gallery_container_style-dark .gallery_controlPanel ul li:hover { }
+
+.gallery_container_style-dark .gallery_play {
+	background: url('../images/SlideshowPlugin/dark-controlpanel.png') 0 0 no-repeat;
+}
+
+.gallery_container_style-dark .gallery_pause {
+	background: url('../images/SlideshowPlugin/dark-controlpanel.png') -20px 0 no-repeat;
+}
+
+.gallery_container_style-dark .gallery_button {
+	margin-top: -50px;
+	height: 100px;
+	width: 24px;
+	background: url('../images/SlideshowPlugin/dark-arrows.png') no-repeat;
+}
+
+.gallery_container_style-dark .gallery_previous { }
+
+.gallery_container_style-dark .gallery_next {
+	background-position: -24px 0;
+}
+
+.gallery_container_style-dark .gallery_pagination { bottom: 20px; }
+
+.gallery_container_style-dark .gallery_pagination_center {	}
+
+.gallery_container_style-dark .gallery_pagination .gallery_currentView {
+	filter: alpha(opacity = 80);
+	opacity: 0.8;
+}
+
+.gallery_container_style-dark .gallery_pagination ul { }
+
+.gallery_container_style-dark .gallery_pagination ul li {
+	margin: 0 2px;
+	width: 15px;
+	height: 15px;
+	background: url('../images/SlideshowPlugin/dark-bullet.png') no-repeat;
+}
